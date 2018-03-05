@@ -1,0 +1,210 @@
+/* 
+	Global classes 
+					*/
+body {
+	background-image: url("images/iphoneOL.jpg");
+	background-repeat: no-repeat;
+	font-family: Avenir, sans-serif;
+}
+
+
+#screen {
+	height: 530px;
+	width: 300px;
+	margin: 105px 23px;
+}
+
+h1 {
+	text-shadow: 2px 2px black;
+}
+
+.head-bar {
+	color: white;
+	text-align: center;
+	height: 45px;
+	background-color: #e6ccff;
+
+}
+ /*The top bar on the page which appears on each page */
+
+.back-button {
+	height: 30px;
+	width: 45px;
+	background-color: lightgrey;
+	text-align: center;
+	font-size: 40px;
+	color: purple;
+	margin-left: 15px;
+	margin-top: 15px;
+	border-style: solid;
+	border-color: white;
+	border-width: 1px;
+}
+ /*Appears as a <- button that can be clicked in order to go back to the Album page, decides button's appearance */
+
+/* 
+	Albums 
+			*/
+.albums-album-wrapper {
+	float: left;
+	width: 140px;
+	margin-left: 5px;
+	margin-right: 5px;
+	margin-top: 25px;
+	text-align: center;
+}
+/* Creates a wrapper around the album and associated text */
+
+.albums-album-art img {
+	width: 140px;
+}
+/*Decides the size of the album */
+
+.albums-album-name {
+	font-weight: bold;
+	font-size: 13px;
+}
+/*Decides the size of the album's name */
+
+.albums-artist-name {
+	font-style: italic;
+	font-size: 11px;
+}
+/*Decides the size of the artist's name */
+
+/* 
+	Songs 
+			*/
+.songs-info-wrapper {
+	float: right;
+	margin-right: 20px;
+	margin-bottom: 30px;
+	margin-top: 50px;
+}
+/*Decides the spacing for the song info */
+
+.songs-album-art img {
+	float: left;
+	width: 160px;
+	margin-left: 10px;
+	margin-right: 20px;
+	margin-bottom: 4px;
+	margin-top: 10px;
+}
+ /*Formats and sizes the art for the selected album */
+
+.songs-album-name {
+	font-weight: bold;
+	font-size: 20px;
+	margin-bottom: 10px;
+	margin-top: 5px;	
+}
+/*Decides the name and spacing for the album name */
+
+.songs-artist-name {
+	font-style: italic;
+	font-size: 15px;
+	margin-bottom: 10px;
+	margin-top: 10px;
+}
+/*Decides the name and spacing for the album's artist's name*/
+
+.songs-text-info {
+	font-size: 19px;
+	margin-left: 10px;
+}
+/*Decides the spacing for the list as well as the borders around the songs */
+
+.songs-album-year {
+	font-size: 15px;
+	margin-bottom: 5px;
+	margin-top: 5px;
+}
+/*Decides the name and spacing for the album's year */
+
+.songs-list {
+	border: 2px solid lightgrey;
+	height: 22px;
+	width: 250px;
+	margin-top: 3px;
+	float: left;
+}
+/*Decides the font size and orientation of the song list */
+
+
+/* 
+	Player 
+			*/
+.player-album-art img {
+	width: 250px;
+	float: top;
+	margin-top: 10px;
+	margin-left: 23px;
+	margin-left: 23px;
+}
+/* Decides the size of and spacing around the album art*/
+
+.player-song-info {
+	text-align: center;
+	color: purple;
+	margin-top: -10px;
+}
+/* Orients and stylizes the name of the album and artist */
+
+#player-song-name {
+	font-size: 20px;
+	color: black;
+	margin-top: 20px;
+	margin-bottom: -20px;
+}
+/* Orients and stylizes the name of the song */
+
+.volume-bar {
+	margin-left: 25px;
+	float: left;
+}
+/* Orients and stylizes the contents relating to volume */
+
+.volume-level {
+	float: right;
+	height: 6px;
+	width: 24px;
+	border: 1px solid black;
+	margin: 5px;
+	background: white;
+}
+/* Orients and stylizes  the volume level boxes */
+
+.volume-rocker {
+	float: left;
+	margin-left: 20px;
+	margin-right: 20px;
+	width: 100px;
+}
+/* Orients and stylizes the volume rocker buttons  */
+
+.player-controls{
+	float: left;
+	margin-left: 75px;
+	margin-right: 75px;
+}
+/* Orients the player controls for the song */
+
+#player-time {
+	float: left;
+	margin-left: 30px;
+	width: 230px;
+}
+/* The time at which the player bar is currently located */
+
+#time-elapsed {
+	float: left;
+	margin-left: 30px;
+}
+/* Decides how much time has passed in the song */
+
+#time-total{
+	float: right;
+	margin-right: 40px;
+}
+/* Orients the time elapsed and total time of the song */

@@ -1,0 +1,59 @@
+<html>
+<header>
+   <title>Music Player</title>
+   <link rel="stylesheet" type="text/css" href="ipod.css"/>
+   <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
+</header>
+<body>
+   <div id="screen">
+     <div class="head-bar">
+         <div class="back-button"><a href="songs.html">
+      <i class="material-icons">arrow_back</i></a></div>
+   </div>
+
+
+   <div class="player-album-art">
+   <img src="images/currents.jpg" alt="Currents Album Cover"/> </div>
+   <div class="player-song-info">
+      <!--Shows the user the song name, album name, and artist name -->
+      <div id="player-song-name">
+         <!--Song name changes based on the time that has time elapsed and player input -->
+      <p>The Less I Know The Better</p> </div>
+      <p><em>Currents</em> - Tame Impala</p>
+   </div>
+   <input id="player-time" type="range" value="0" min="0" max="180">
+   <!-- Allows the user to see how much time has passed in a song and allows them to change the time in the song -->
+      <div id="time-elapsed">0:00</div>
+      <!-- Shows the user how much time has passed in the song-->
+      <div id="time-total">3:00</div> 
+   <div class="player-controls">
+      <!-- Allows user to control aspects of the song playing or skip to different songs -->
+      <button onclick="prevSong()"><i class="material-icons">skip_previous</i></button>
+      <!-- Allows user to skip to a previous song -->
+      <button onclick="switchPlay()""><i id="playOrPause" class="material-icons">play_arrow</i></button>
+      <!-- Allows user to pause or play a song depending on the icon displayed-->
+      <button onclick="nextSong()"><i class="material-icons">skip_next</i></button>
+      <!-- Allows user to skip to the next song -->
+   </div>
+   <div class="volume-bar">
+      <!-- Shows the current volume level of the song through the filled boxes, and displays a small audio icon -->
+      <i class="material-icons">volume_down</i>
+      <div class="volume-level" id="vl5" ></div>
+      <div class="volume-level" id="vl4" ></div>
+      <div class="volume-level" id="vl3" ></div>
+      <div class="volume-level" id="vl2" ></div>
+      <div class="volume-level" id="vl1" ></div>
+      <div class="volume-level" id="vl0" ></div>
+   </div>
+      <button class="volume-rocker" onclick="volDown()">&mdash;</button> 
+      <!-- Allows user to decrease the volume level by unfilling a box -->
+      <button class="volume-rocker" onclick="volUp()">+</button>
+      <!-- Allows user to increase the volume level by filling a box -->
+</div>
+<script src="ipod.js"></script>
+</body>
+</html>
+<!-- 
+* bg iphone img is 363x762px
+* iphone 'screen' is apprx 300x530 -->
