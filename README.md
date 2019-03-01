@@ -7,3 +7,6 @@ Music Player
 This was an assignment for one of my design classes in which we were given a few prebuilt assets and had to design a music player with it. 
 The assignment was a test of proficiency for html, css, and java and additionally was supposed to make sure we knew basic design principles.
 
+Personal Website
+
+Currently in progress! This site will eventually be hosted on a Raspberry Pi but lives here for now until completion.
