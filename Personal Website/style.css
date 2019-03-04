@@ -1,5 +1,5 @@
 body {
-	background: linear-gradient(90deg, #71d6a8 18%, #ccf9e5 18%);
+	background: linear-gradient(90deg, #71d6a8 17%, #ccf9e5 17%);
 }
 
 ul {
@@ -19,16 +19,33 @@ ul {
 
 /* Control the left side */
 .summary {
-  left: -10;
+  float: left;
+  margin: 30px;
 }
 
 /* Control the right side */
 .bulk {
-  right: 0;
+  right: 0px;
 }
 
 .p1 {
-	text-shadow: 2px 2px #000000;
+	text-shadow: 1px 1px #000000;
 	font-size: 20px;
 	color: white;
+	text-decoration: underline;
 }
+
+a:link {
+	text-decoration: underline purple;
+	color: white;
+}
+
+a:visited { 
+	text-decoration: underline red;
+	color: darkgreen;
+ }
+
+ a:hover {
+ 	text-decoration: underline purple;
+ 	color: grey;
+ }
