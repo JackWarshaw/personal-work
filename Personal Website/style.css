@@ -1,10 +1,11 @@
 body {
-	background: linear-gradient(90deg, #71d6a8 18%, #ccf9e5 18%);
+	background: linear-gradient(90deg, #71d6a8 250px, #ccf9e5 250px);
 }
 
 ul {
 	text-align: left;
-	color: white;
+	color: #ccf9e5;
+	text-shadow: 1px 1px #58A4B0;
 }
 
 .page {
@@ -14,38 +15,53 @@ ul {
   z-index: 1;
   top: 0;
   overflow-x: hidden;
-  padding-top: 30px;
 }
 
 /* Control the left side */
 .summary {
   float: left;
   margin: 5px;
+  position: fixed;
+    padding-top: 30px;
 }
 
 /* Control the right side */
 .bulk {
-  right: 0px;
+  left: 300px;
+  position: relative;
 }
 
 .p1 {
-	text-shadow: 1px 1px #000000;
+	text-shadow: 1px 1px #58A4B0;
 	font-size: 20px;
-	color: white;
+	color: #373F51;
 	text-decoration: underline;
 }
 
+.h2 {
+	font-size: 30px;
+	text-shadow: 1px 1px #58A4B0;
+	color: #373F51;
+	font-style: oblique;
+	text-decoration: underline;
+}
+
+.text {
+	font-size: 20px;
+	color: #58A4B0;
+}
+
 a:link {
-	text-decoration: underline black;
-	color: white;
+	text-decoration: underline #ccf9e5;
+	color: #ccf9e5;
 }
 
 a:visited { 
-	text-decoration: underline red;
-	color: darkgreen;
+	text-decoration: underline #373F51;
+	color: #373F51;
  }
 
  a:hover {
- 	text-decoration: underline purple;
+ 	text-decoration: underline grey;
  	color: grey;
  }
