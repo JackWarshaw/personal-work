@@ -10,3 +10,7 @@ The assignment was a test of proficiency for html, css, and java and additionall
 Personal Website
 
 Currently in progress! This site will eventually be hosted on a Raspberry Pi but lives here for now until completion.
+
+Cosmic Scale (can be found at https://chloemb.github.io/352project/)
+
+This was a game created by myself and a few students, which we created primarily for those who have motor disadvantages that dont allow them to easily use standard controllers. Instead this game is controlled using a player's vocal pitch in real time, which lets a user play the game regardless of any motor disadvantages.
