@@ -1,5 +1,5 @@
 body {
-	background: linear-gradient(90deg, #71d6a8 17%, #ccf9e5 17%);
+	background: linear-gradient(90deg, #71d6a8 18%, #ccf9e5 18%);
 }
 
 ul {
@@ -14,13 +14,13 @@ ul {
   z-index: 1;
   top: 0;
   overflow-x: hidden;
-  padding-top: 20px;
+  padding-top: 30px;
 }
 
 /* Control the left side */
 .summary {
   float: left;
-  margin: 30px;
+  margin: 5px;
 }
 
 /* Control the right side */
@@ -36,7 +36,7 @@ ul {
 }
 
 a:link {
-	text-decoration: underline purple;
+	text-decoration: underline black;
 	color: white;
 }
 
